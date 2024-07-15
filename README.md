@@ -1,3 +1,3 @@
-# CSE151A_InfluenzaPrediction
+# CSE151A_DARWIN_Alzheimer's
 
-Link to influenza dataset: [here](https://archive.ics.uci.edu/dataset/861/influenza+outbreak+event+prediction+via+twitter)
+Link to DARWIN dataset: [here]([https://archive.ics.uci.edu/dataset/861/influenza+outbreak+event+prediction+via+twitter](https://archive.ics.uci.edu/dataset/732/darwin))
