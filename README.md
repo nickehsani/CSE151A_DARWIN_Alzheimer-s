@@ -19,4 +19,8 @@ To finish processing the data, we tested for normality using shapiro tests, and 
 __Logistic Regression:__
 We used logistic regression as our first model. We split the dataset into 80% training and 20% test and trained a logistic regression model with 1000 iterations. Running the model on our test data returned 86% accuracy. On our training dataset, it returned 100% accuracy. On a fitting graph for this dataset, the logistic regression would fall on the lower end of model complexity. However, because the accuracy of the training dataset is 100%, while the test accuracy is much lower, it appears that this model may be overfit to the data. It would be helpful to see how future models perform given this same data. The next models we plan to use are a perceptron, K-Nearest Neighbors, and Naive Bayes, because we are trying to perform a binary classification task, and we want to explore how more complex models perform.
 
+__Perceptron:__
+
+We used a Perceptron as our second model. We split the dataset 80-20 training and testing data, and then we trained the Perceptron model using 20 epochs. On the training dataset, the accuracy was 100%, and on the testing data, the final model accuracy was 89%. We used Hinge loss on this model because it helps maximize margins between the two output classes. The Hinge loss of this model was 0.51. The top 5 largest absolute value weights corresponded to the features pressure_var19, mean_jerk_on_paper9, air_time13, mean_jerk_on_paper8, and gmrt_on_paper2. 
+
 
